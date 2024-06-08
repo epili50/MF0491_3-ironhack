@@ -7,6 +7,11 @@
  */
 
 function loveDifference(age1, age2) {
+    let diferencia;
+    if(age1 > age2){
+       return age1 - age2;
+    }
+    return age2 - age1;
 
 }
 
